@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KCL Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">KCL</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#book" class="btn-nav">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Capturing Your Story</p>
+      <h1 class="hero-title">KCL Photography</h1>
+      <p class="hero-sub">Moments that matter, beautifully preserved.</p>
+      <a href="#book" class="btn-primary">Book a Session</a>
+    </div>
+  </header>
+
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <p class="section-sub">A glimpse into our recent work</p>
+      <div class="gallery">
+        <div class="gallery-item gallery-tall">
+          <div class="gallery-placeholder">
+            <span>Portrait</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Lifestyle</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Events</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-wide">
+          <div class="gallery-placeholder">
+            <span>Couples</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>Family</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-tall">
+          <div class="gallery-placeholder">
+            <span>Creative</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <p class="section-sub">Tailored sessions for every occasion</p>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="3.5"/>
+              <path d="M4 4h3.5l1.7-2h5.6l1.7 2H20a1 1 0 011 1v13a1 1 0 01-1 1H4a1 1 0 01-1-1V5a1 1 0 011-1z"/>
+            </svg>
+          </div>
+          <h3>Mini Sessions</h3>
+          <p class="service-duration">20 minutes</p>
+          <ul class="service-features">
+            <li>1 location</li>
+            <li>10 edited images</li>
+            <li>Online gallery</li>
+          </ul>
+          <p class="service-price">$150</p>
+          <a href="#book" class="btn-secondary">Book Now</a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <h3>Full Sessions</h3>
+          <p class="service-duration">1 hour</p>
+          <ul class="service-features">
+            <li>Up to 2 locations</li>
+            <li>30 edited images</li>
+            <li>Online gallery</li>
+            <li>Outfit change</li>
+          </ul>
+          <p class="service-price">$350</p>
+          <a href="#book" class="btn-secondary">Book Now</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/>
+            </svg>
+          </div>
+          <h3>Premium Sessions</h3>
+          <p class="service-duration">2 hours</p>
+          <ul class="service-features">
+            <li>Multiple locations</li>
+            <li>50+ edited images</li>
+            <li>Online gallery</li>
+            <li>Multiple outfits</li>
+            <li>Print credits</li>
+          </ul>
+          <p class="service-price">$600</p>
+          <a href="#book" class="btn-secondary">Book Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="gallery-placeholder about-placeholder">
+            <span>Photo of Kelsey & Partner</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title left">About KCL</h2>
+          <p>We're Kelsey and Chase — the duo behind KCL Photography. We believe every moment tells a story, and our job is to make sure yours is told beautifully.</p>
+          <p>Whether it's a quiet portrait session, a family celebration, or a couple in love — we bring warmth, creativity, and intention to every shoot.</p>
+          <p>Based in your city, available everywhere.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Sessions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">200+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">Kind Words</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"KCL captured our family session so beautifully. Every photo feels natural and full of life. We'll treasure these forever."</p>
+          <span class="testimonial-author">&mdash; Sarah M.</span>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Professional, creative, and so easy to work with. The mini session was perfect for what we needed. Highly recommend!"</p>
+          <span class="testimonial-author">&mdash; James &amp; Tina</span>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"They made us feel comfortable from the start. The gallery was delivered fast and every image was stunning."</p>
+          <span class="testimonial-author">&mdash; Adrienne K.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="section" id="book">
+    <div class="container">
+      <h2 class="section-title">Book Your Session</h2>
+      <p class="section-sub">Fill out the form below and we'll get back to you within 24 hours.</p>
+      <form class="booking-form" id="bookingForm" name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="booking">
+        <p class="hidden" aria-hidden="true">
+          <label>Don't fill this out: <input name="bot-field"></label>
+        </p>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="session-type">Session Type</label>
+            <select id="session-type" name="session-type" required>
+              <option value="" disabled selected>Select a session</option>
+              <option value="mini">Mini Session — $150</option>
+              <option value="full">Full Session — $350</option>
+              <option value="premium">Premium Session — $600</option>
+              <option value="custom">Custom / Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="form-group">
+          <label for="message">Tell us about your vision</label>
+          <textarea id="message" name="message" rows="4" placeholder="Location ideas, number of people, outfit inspo, anything you'd like us to know..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Send Inquiry</button>
+      </form>
+      <div class="form-success hidden" id="formSuccess">
+        <h3>Thank you!</h3>
+        <p>We received your inquiry and will be in touch soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-dark" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title left light">Get In Touch</h2>
+        <p class="light">Have questions? Reach out anytime.</p>
+        <div class="contact-info">
+          <p><strong>Email:</strong> hello@kclphotography.com</p>
+          <p><strong>Instagram:</strong> @kclphotography</p>
+        </div>
+      </div>
+      <div class="contact-socials">
+        <a href="#" aria-label="Instagram" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="Facebook" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="TikTok" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.86a8.28 8.28 0 004.76 1.5v-3.4a4.85 4.85 0 01-1-.27z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 KCL Photography. All rights reserved.</p>
+      <p class="footer-credit">Crafted with care.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
